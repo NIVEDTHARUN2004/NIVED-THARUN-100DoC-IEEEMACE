@@ -1,0 +1,5 @@
+#pre-existing array is Arr
+Arr=[1,2,3,4]
+n= float(input('Enter any digit='))
+Arr.append(n)
+print(Arr)
