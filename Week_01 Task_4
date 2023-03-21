@@ -2,9 +2,9 @@
 def add(Arr):
     _sum=0
     for i in Arr:
-        _sum += i
-    return _sum
-        
+        _sum += int(i)
+    print('The sum of the input=',_sum)
+
 #To take an array as input
 print('Enter The Integers\nseparate each element by space')
 n=input()
@@ -13,10 +13,5 @@ for i in range(len(n)):
     n[i]=int(n[i])
 print("THE INPUT ARRAY IS",n)
 
-sum_ = add(n)
-print('The sum of the input=', sum_)
+add(n)
 
-
-    
-
-    
