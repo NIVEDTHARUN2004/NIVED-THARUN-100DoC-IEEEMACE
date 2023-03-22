@@ -1,1 +1,7 @@
-
+#To take an array as input
+print('Enter The Integers\nseparate each element by space')
+n=input()
+n=n.split()
+for i in range(len(n)):
+    n[i]=int(n[i])
+print("THE INPUT ARRAY IS",n)
