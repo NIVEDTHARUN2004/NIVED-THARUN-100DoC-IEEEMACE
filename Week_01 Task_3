@@ -1,5 +1,11 @@
-#pre-existing array is Arr
-Arr=[1,2,3,4]
-n= int(input('Enter any digit='))
-Arr.append(n)
-print(Arr)
+#pre-existing array
+Arr=[1,2,3]
+
+n = int(input("How many numbers do you want to add:"))
+
+for i in range(n):
+    num = int(input("Enter a number: "))
+    Arr.append(num)
+
+print("Updated array:", Arr)
+
